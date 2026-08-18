@@ -1,0 +1,745 @@
+{
+  "fonts": [
+    {
+      "id": "krew-ui-icons-solid",
+      "src": [
+        {
+          "path": "../assets/krew-ui-icons-solid.woff2",
+          "format": "woff2"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "zap": {
+      "fontCharacter": "\\f101",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "window": {
+      "fontCharacter": "\\f102",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "window-compact": {
+      "fontCharacter": "\\f103",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "whole-word": {
+      "fontCharacter": "\\f104",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "whitespace": {
+      "fontCharacter": "\\f105",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "watch": {
+      "fontCharacter": "\\f106",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "warning": {
+      "fontCharacter": "\\f107",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "krew-logo": {
+      "fontCharacter": "\\f108",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "unfold": {
+      "fontCharacter": "\\f109",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "triangle-up": {
+      "fontCharacter": "\\f10a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "triangle-right": {
+      "fontCharacter": "\\f10b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "triangle-left": {
+      "fontCharacter": "\\f10c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "triangle-down": {
+      "fontCharacter": "\\f10d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "trash": {
+      "fontCharacter": "\\f10e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "tools": {
+      "fontCharacter": "\\f10f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "todos": {
+      "fontCharacter": "\\f110",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "text-uppercase": {
+      "fontCharacter": "\\f111",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "terminal": {
+      "fontCharacter": "\\f112",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "sync": {
+      "fontCharacter": "\\f113",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "sync-ignored": {
+      "fontCharacter": "\\f114",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "symbol-color": {
+      "fontCharacter": "\\f115",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "symbol-class": {
+      "fontCharacter": "\\f116",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "stop": {
+      "fontCharacter": "\\f117",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "star": {
+      "fontCharacter": "\\f118",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "star-half": {
+      "fontCharacter": "\\f119",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "star-full": {
+      "fontCharacter": "\\f11a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "split-vertical": {
+      "fontCharacter": "\\f11b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\f11c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "sparkle": {
+      "fontCharacter": "\\f11d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "sparkle-compact": {
+      "fontCharacter": "\\f11e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "source-control": {
+      "fontCharacter": "\\f11f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "sort-precedence": {
+      "fontCharacter": "\\f120",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "shield": {
+      "fontCharacter": "\\f121",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "settings": {
+      "fontCharacter": "\\f122",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\f123",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "settings-view-bar-alt": {
+      "fontCharacter": "\\f124",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "settings-gear": {
+      "fontCharacter": "\\f125",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "server": {
+      "fontCharacter": "\\f126",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "server-process": {
+      "fontCharacter": "\\f127",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "server-environment": {
+      "fontCharacter": "\\f128",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "send": {
+      "fontCharacter": "\\f129",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "selection": {
+      "fontCharacter": "\\f12a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "search": {
+      "fontCharacter": "\\f12b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "search-stop": {
+      "fontCharacter": "\\f12c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "search-save": {
+      "fontCharacter": "\\f12d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "search-1": {
+      "fontCharacter": "\\f12e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "run": {
+      "fontCharacter": "\\f12f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "rocket": {
+      "fontCharacter": "\\f130",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "replace": {
+      "fontCharacter": "\\f131",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "replace-all": {
+      "fontCharacter": "\\f132",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "remove": {
+      "fontCharacter": "\\f133",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "remote-explorer": {
+      "fontCharacter": "\\f134",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "regex": {
+      "fontCharacter": "\\f135",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "refresh": {
+      "fontCharacter": "\\f136",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "record-keys": {
+      "fontCharacter": "\\f137",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "radio-tower": {
+      "fontCharacter": "\\f138",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "preview": {
+      "fontCharacter": "\\f139",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "preserve-case": {
+      "fontCharacter": "\\f13a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "plus": {
+      "fontCharacter": "\\f13b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "plug": {
+      "fontCharacter": "\\f13c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "play": {
+      "fontCharacter": "\\f13d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "play-all": {
+      "fontCharacter": "\\f13e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "pinned": {
+      "fontCharacter": "\\f13f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "pin": {
+      "fontCharacter": "\\f140",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "pencil": {
+      "fontCharacter": "\\f141",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "pass": {
+      "fontCharacter": "\\f142",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "pass-filled": {
+      "fontCharacter": "\\f143",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "paperclip": {
+      "fontCharacter": "\\f144",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "panel-right": {
+      "fontCharacter": "\\f145",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "panel-left": {
+      "fontCharacter": "\\f146",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "paintcan": {
+      "fontCharacter": "\\f147",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "output": {
+      "fontCharacter": "\\f148",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "open-in-window": {
+      "fontCharacter": "\\f149",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "notifications-do-not-disturb": {
+      "fontCharacter": "\\f14a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "new-folder": {
+      "fontCharacter": "\\f14b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "new-file": {
+      "fontCharacter": "\\f14c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "mic": {
+      "fontCharacter": "\\f14d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "mic-filled": {
+      "fontCharacter": "\\f14e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "lock": {
+      "fontCharacter": "\\f14f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "live-share": {
+      "fontCharacter": "\\f150",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "list-tree": {
+      "fontCharacter": "\\f151",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "list-selection": {
+      "fontCharacter": "\\f152",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "list-flat": {
+      "fontCharacter": "\\f153",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "link-external": {
+      "fontCharacter": "\\f154",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "lightbulb": {
+      "fontCharacter": "\\f155",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "layout": {
+      "fontCharacter": "\\f156",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "keyboard": {
+      "fontCharacter": "\\f157",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "issues": {
+      "fontCharacter": "\\f158",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "info": {
+      "fontCharacter": "\\f159",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "infinity": {
+      "fontCharacter": "\\f15a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "home": {
+      "fontCharacter": "\\f15b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "history": {
+      "fontCharacter": "\\f15c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "heart": {
+      "fontCharacter": "\\f15d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gripper": {
+      "fontCharacter": "\\f15e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "go-to-file": {
+      "fontCharacter": "\\f15f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "globe": {
+      "fontCharacter": "\\f160",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gitlens-stash-save": {
+      "fontCharacter": "\\f161",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gitlens-prev-commit": {
+      "fontCharacter": "\\f162",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gitlens-next-commit": {
+      "fontCharacter": "\\f163",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gitlens-graph": {
+      "fontCharacter": "\\f164",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gitlens-gitlens": {
+      "fontCharacter": "\\f165",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gitlens-commit-horizontal": {
+      "fontCharacter": "\\f166",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "git-commit": {
+      "fontCharacter": "\\f167",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "git-branch": {
+      "fontCharacter": "\\f168",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "gear": {
+      "fontCharacter": "\\f169",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "folder": {
+      "fontCharacter": "\\f16a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "filter": {
+      "fontCharacter": "\\f16b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "files": {
+      "fontCharacter": "\\f16c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "file-directory": {
+      "fontCharacter": "\\f16d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "file-code": {
+      "fontCharacter": "\\f16e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "eye": {
+      "fontCharacter": "\\f16f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "extensions": {
+      "fontCharacter": "\\f170",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "extensions-install-count": {
+      "fontCharacter": "\\f171",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "extension-activation-time": {
+      "fontCharacter": "\\f172",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "explorer-view-icon": {
+      "fontCharacter": "\\f173",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "expand-all": {
+      "fontCharacter": "\\f174",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "exclude": {
+      "fontCharacter": "\\f175",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "error": {
+      "fontCharacter": "\\f176",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "ellipsis": {
+      "fontCharacter": "\\f177",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "edit": {
+      "fontCharacter": "\\f178",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "discard": {
+      "fontCharacter": "\\f179",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "diff-multiple": {
+      "fontCharacter": "\\f17a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug": {
+      "fontCharacter": "\\f17b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-stop": {
+      "fontCharacter": "\\f17c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-step-over": {
+      "fontCharacter": "\\f17d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-step-out": {
+      "fontCharacter": "\\f17e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\f17f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-step-back": {
+      "fontCharacter": "\\f180",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-start": {
+      "fontCharacter": "\\f181",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-stackframe": {
+      "fontCharacter": "\\f182",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-stackframe-focused": {
+      "fontCharacter": "\\f183",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-reverse-continue": {
+      "fontCharacter": "\\f184",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-restart": {
+      "fontCharacter": "\\f185",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-restart-frame": {
+      "fontCharacter": "\\f186",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-pause": {
+      "fontCharacter": "\\f187",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-disconnect": {
+      "fontCharacter": "\\f188",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-continue": {
+      "fontCharacter": "\\f189",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-console": {
+      "fontCharacter": "\\f18a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "debug-alt": {
+      "fontCharacter": "\\f18b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "dashboard": {
+      "fontCharacter": "\\f18c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "compare-changes": {
+      "fontCharacter": "\\f18d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "comment": {
+      "fontCharacter": "\\f18e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "comment-discussion": {
+      "fontCharacter": "\\f18f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "collapse-all": {
+      "fontCharacter": "\\f190",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "code": {
+      "fontCharacter": "\\f191",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "code-review": {
+      "fontCharacter": "\\f192",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "cloud": {
+      "fontCharacter": "\\f193",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "cloud-download": {
+      "fontCharacter": "\\f194",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "close": {
+      "fontCharacter": "\\f195",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "close-all": {
+      "fontCharacter": "\\f196",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "clear-all": {
+      "fontCharacter": "\\f197",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "circles": {
+      "fontCharacter": "\\f198",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "circle-large-outline": {
+      "fontCharacter": "\\f199",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\f19a",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\f19b",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\f19c",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\f19d",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "check": {
+      "fontCharacter": "\\f19e",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "chat": {
+      "fontCharacter": "\\f19f",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "chat-sparkle": {
+      "fontCharacter": "\\f1a0",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "case-sensitive": {
+      "fontCharacter": "\\f1a1",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "call-outgoing": {
+      "fontCharacter": "\\f1a2",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "call-incoming": {
+      "fontCharacter": "\\f1a3",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "bulb": {
+      "fontCharacter": "\\f1a4",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "bug": {
+      "fontCharacter": "\\f1a5",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "bracket": {
+      "fontCharacter": "\\f1a6",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "book": {
+      "fontCharacter": "\\f1a7",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "bell": {
+      "fontCharacter": "\\f1a8",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "bell-dot": {
+      "fontCharacter": "\\f1a9",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "beaker": {
+      "fontCharacter": "\\f1aa",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "auxiliarybar-maximize": {
+      "fontCharacter": "\\f1ab",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "attach": {
+      "fontCharacter": "\\f1ac",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "arrow-up": {
+      "fontCharacter": "\\f1ad",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "arrow-right": {
+      "fontCharacter": "\\f1ae",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "arrow-left": {
+      "fontCharacter": "\\f1af",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "arrow-down": {
+      "fontCharacter": "\\f1b0",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "ai-customization-skill": {
+      "fontCharacter": "\\f1b1",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "ai-customization-hook": {
+      "fontCharacter": "\\f1b2",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "ai-customization-agent": {
+      "fontCharacter": "\\f1b3",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "add": {
+      "fontCharacter": "\\f1b4",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "activate-breakpoints": {
+      "fontCharacter": "\\f1b5",
+      "fontId": "krew-ui-icons-solid"
+    },
+    "account": {
+      "fontCharacter": "\\f1b6",
+      "fontId": "krew-ui-icons-solid"
+    }
+  }
+}
